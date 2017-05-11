@@ -9,7 +9,7 @@ to communicate via events in as decoupled way as possible.
 
 *Minibus* is built upon the
 [Message Bus](https://msdn.microsoft.com/en-us/library/ff647328.aspx)
-concept. There are multiple implementations of this idea, the most notable of them is probably 
+concept. There are multiple implementations of this idea, the most relevant of which is 
 [Immutant Messaging](http://immutant.org/documentation/current/apidoc/guide-messaging.html).
   
 *Minibus* is different in a number of ways:
