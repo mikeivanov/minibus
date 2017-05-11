@@ -141,8 +141,8 @@
 
 (defn start! []
   (when-not @bus
-    (reset! bus (make-bus*))
-    true))
+    (reset! bus (make-bus*)))
+  bus)
 
 (defn stop! []
   (swap! bus close*)

@@ -148,7 +148,7 @@ It is possible to cancel all endpoint's subscriptions at once:
 The bus is a component and can be restarted at any time:
 
     user> (b/restart!)
-    true
+    #atom[{:chan #object[...]}]
     user> (b/subscriptions)
     ()
 
